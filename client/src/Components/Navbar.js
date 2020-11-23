@@ -33,6 +33,12 @@ const Navbar = props =>{
                         Register
                     </li>
                 </Link>  
+                <Link to="/about">
+                    <li className="nav-item nav-link">
+                        About
+                    </li>
+                </Link>  
+
             </>
         )
     }
@@ -67,7 +73,7 @@ const Navbar = props =>{
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link to="/">
-                <div className="navbar-brand">NoobCoder</div>
+                <div className="navbar-brand">To do</div>
             </Link>
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">

@@ -7,7 +7,6 @@ const Login = props=>{
     const [user,setUser] = useState({username: "", password : ""});
     const [message,setMessage] = useState(null);
     const authContext = useContext(AuthContext);
-
     const onChange = e =>{
         setUser({...user,[e.target.name] : e.target.value});
     }
